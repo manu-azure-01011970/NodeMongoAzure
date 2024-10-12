@@ -1,0 +1,15 @@
+{
+    "name": "azure-mongodb-app",
+    "version": "1.0.0",
+    "description": "Aplicación Node.js con MongoDB y despliegue en Azure",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.11.15",
+      "dotenv": "^8.2.0"
+    }
+  }
+  
