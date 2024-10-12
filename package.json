@@ -5,7 +5,8 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "echo \"No tests configured\" && exit 0" 
+    "test": "echo \"No tests configured\" && exit 0",
+    "build": "echo \"No build step necessary\" && exit 0" 
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -13,3 +14,4 @@
     "dotenv": "^8.2.0"
   }
 }
+
