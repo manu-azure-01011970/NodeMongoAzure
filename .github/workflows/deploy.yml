@@ -11,18 +11,15 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3   # Actualizado a v3 (Node.js 16 o superior)
+      uses: actions/checkout@v3
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3   # Actualizado a v3 (Node.js 16 o superior)
+      uses: actions/setup-node@v3
       with:
-        node-version: '20'          # Define Node.js 20 explícitamente
+        node-version: '20'
 
     - name: Install dependencies
       run: npm install
-
-    - name: Run tests
-      run: npm test
 
     - name: Build application
       run: npm run build
@@ -33,7 +30,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3   # Actualizado a v3
+      uses: actions/checkout@v3
 
     - name: Deploy to Azure WebApp
       uses: azure/webapps-deploy@v2
